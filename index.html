@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title data-i18n="doc_title">Haneen Tarek Attia | Aspiring Data Analyst &amp; Medical Informatics Portfolio</title>
+  <meta name="description" content="Portfolio of Haneen Tarek Attia – Computer Science & Medical Informatics student, Aspiring Data Analyst specializing in Power BI, Advanced Excel, SQL, and healthcare & business intelligence.">
+  <meta name="keywords" content="Haneen Tarek, Aspiring Data Analyst, Medical Informatics, Power BI, Excel Dashboard, SQL, Python, Portfolio, DEPI, Zagazig University">
+  <meta name="author" content="Haneen Tarek Attia">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Haneen Tarek Attia | Aspiring Data Analyst &amp; Medical Informatics Portfolio">
+  <meta property="og:description" content="Explore interactive Power BI reports, Excel data models, and analytical projects by Haneen Tarek Attia.">
+  <meta property="og:image" content="assets/images/profile-avatar.svg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  
+  <!-- Google Fonts: Inter, Cairo (for Arabic), and JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons for UI -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Skip Link for Accessibility -->
+  <a href="#main-content" class="skip-link" data-i18n="skip_link">Skip to main content</a>
+
+  <!-- Header / Navigation Bar -->
+  <header class="navbar-wrapper" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Haneen Tarek Attia - Home">
+        <span class="logo-mark">HT</span>
+        <div class="logo-text">
+          <span class="brand-name" data-i18n="brand_name">Haneen Tarek Attia</span>
+          <span class="brand-role" data-i18n="brand_role">Aspiring Data Analyst</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active" data-i18n="nav_home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-i18n="nav_about">About</a></li>
+          <li><a href="#skills" class="nav-link" data-i18n="nav_skills">Skills</a></li>
+          <li><a href="#projects" class="nav-link" data-i18n="nav_projects">Projects</a></li>
+          <li><a href="#certificates" class="nav-link" data-i18n="nav_certs">Certifications</a></li>
+          <li><a href="#experience" class="nav-link" data-i18n="nav_experience">Education &amp; Training</a></li>
+          <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Language Switcher (EN / AR) -->
+        <button type="button" class="lang-toggle-btn" id="langToggle" aria-label="Switch language" title="Switch language">
+          <i class="fa-solid fa-globe"></i>
+          <span class="lang-text" id="langText">العربية</span>
+        </button>
+
+        <!-- Dark/Light Theme Toggle -->
+        <button type="button" class="theme-toggle-btn" id="themeToggle" aria-label="Toggle dark/light theme" title="Toggle theme">
+          <i class="fa-solid fa-moon icon-moon"></i>
+          <i class="fa-solid fa-sun icon-sun"></i>
+        </button>
+
+        <!-- Download CV Action -->
+        <a href="assets/cv/Haneen_Tarek_CV.pdf" download="Haneen_Tarek_CV.pdf" class="btn btn-outline btn-sm cv-btn" id="navCvBtn" title="Download CV">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span data-i18n="nav_cv_btn">Resume</span>
+        </a>
+
+        <!-- Mobile Navigation Hamburger -->
+        <button type="button" class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Backdrop -->
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span data-i18n="hero_badge">Computer Science &amp; Medical Informatics Major | DEPI Trainee</span>
+          </div>
+
+          <h1 class="hero-title" data-i18n="hero_title">
+            Haneen Tarek Attia<br>
+            <span class="gradient-text">Aspiring Data Analyst</span>
+          </h1>
+
+          <p class="hero-subtitle" data-i18n="hero_subtitle">
+            Computer Science &amp; Medical Informatics student at Zagazig National University and Junior Data Analyst Trainee at DEPI. Specializing in Power BI, Advanced Excel data modeling, and SQL pipelines to transform raw data into clear business intelligence.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary" id="heroCtaProjects">
+              <i class="fa-solid fa-chart-pie"></i>
+              <span data-i18n="hero_cta_projects">View Dashboards</span>
+            </a>
+            <a href="assets/cv/Haneen_Tarek_CV.pdf" target="_blank" class="btn btn-secondary" id="heroCtaCv">
+              <i class="fa-regular fa-file-lines"></i>
+              <span data-i18n="hero_cta_cv">Open CV</span>
+            </a>
+            <a href="#contact" class="btn btn-ghost" id="heroCtaContact">
+              <i class="fa-regular fa-envelope"></i>
+              <span data-i18n="hero_cta_contact">Contact Me</span>
+            </a>
+          </div>
+
+          <div class="hero-contact-quick">
+            <a href="mailto:haneentarek7006@gmail.com" class="quick-item" title="Click to copy email" id="quickEmailBtn">
+              <i class="fa-regular fa-envelope"></i>
+              <span>haneentarek7006@gmail.com</span>
+            </a>
+            <span class="divider">•</span>
+            <span class="quick-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span data-i18n="hero_location">Zagazig, Al Sharkia</span>
+            </span>
+            <span class="divider">•</span>
+            <a href="https://www.linkedin.com/in/haneen-tarek-658310350" target="_blank" rel="noopener noreferrer" class="quick-item linkedin-link">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar-card-wrapper">
+            <div class="avatar-card glass-panel">
+              <div class="avatar-glow"></div>
+              <img src="assets/images/profile-avatar.svg" alt="Haneen Tarek Monogram Avatar" class="avatar-img">
+              <div class="avatar-status">
+                <span class="status-indicator"></span>
+                <span data-i18n="hero_status">Ready for Internship &amp; Analyst Roles</span>
+              </div>
+            </div>
+
+            <!-- Floating Metric Chips based on Real Project Data -->
+            <div class="floating-chip chip-1 glass-panel">
+              <div class="chip-icon bg-cyan"><i class="fa-solid fa-bolt"></i></div>
+              <div class="chip-text">
+                <span class="chip-label" data-i18n="chip1_label">Reporting Efficiency</span>
+                <span class="chip-value">30 min &rarr; 5 min</span>
+              </div>
+            </div>
+
+            <div class="floating-chip chip-2 glass-panel">
+              <div class="chip-icon bg-emerald"><i class="fa-solid fa-database"></i></div>
+              <div class="chip-text">
+                <span class="chip-label" data-i18n="chip2_label">Analyzed Records</span>
+                <span class="chip-value">375K+ Projects</span>
+              </div>
+            </div>
+
+            <div class="floating-chip chip-3 glass-panel">
+              <div class="chip-icon bg-amber"><i class="fa-solid fa-hospital-user"></i></div>
+              <div class="chip-text">
+                <span class="chip-label" data-i18n="chip3_label">Domain Focus</span>
+                <span class="chip-value" data-i18n="chip3_val">Medical Informatics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Real KPI Highlights Banner -->
+      <div class="container hero-stats-bar">
+        <div class="stats-grid glass-panel">
+          <div class="stat-card">
+            <div class="stat-number" data-target="2300000" data-format="currency">$2.30M+</div>
+            <div class="stat-label" data-i18n="stat1_label">Sales Analyzed (Superstore)</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="375000" data-format="count">375K+</div>
+            <div class="stat-label" data-i18n="stat2_label">Projects Evaluated (Kickstarter)</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="11991" data-format="count">11,991</div>
+            <div class="stat-label" data-i18n="stat3_label">Employees Modeled (Amazon HR)</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="83" data-format="percent">83%</div>
+            <div class="stat-label" data-i18n="stat4_label">Report Turnaround Time Saved</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="about_tag">About Me</span>
+          <h2 class="section-title" data-i18n="about_title">Bridging Computer Science, Medical Informatics &amp; Business Analytics</h2>
+          <p class="section-desc" data-i18n="about_desc">A deep commitment to clean data architectures, precise statistical modeling, and actionable visual storytelling.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-bio glass-panel">
+            <h3 class="bio-heading"><i class="fa-solid fa-chart-line text-cyan"></i> <span data-i18n="bio_heading">Professional Profile</span></h3>
+            <p data-i18n="bio_p1">
+              I am a Computer Science undergraduate majoring in <strong>Medical Informatics</strong> at <strong>Zagazig National University</strong> with a consistent academic grade of <strong>Very Good</strong>. Concurrently, I am advancing my practical industry skills as a <strong>Junior Data Analyst Trainee at DEPI</strong> (Digital Egypt Pioneers Initiative) and through the <strong>Artificial Intelligence Training Program at the British University in Egypt (BUE)</strong>.
+            </p>
+            <p data-i18n="bio_p2">
+              My analytical philosophy focuses on turning disparate datasets—from commercial retail pipelines to complex healthcare records—into reliable, intuitive business intelligence products. By leveraging <strong>Power Query, Advanced Excel formulas, Power BI DAX &amp; synced reporting</strong>, and <strong>Oracle SQL</strong>, I build reporting systems that streamline decision-making and reduce manual compilation time from 30 minutes to just 5 minutes.
+            </p>
+            <p data-i18n="bio_p3">
+              I am seeking an <strong>internship or entry-level Data Analyst role</strong> where I can apply my analytical acumen, programming foundation in Python &amp; R, and database engineering to generate measurable impact.
+            </p>
+
+            <div class="bio-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <strong data-i18n="bio_h1_title">B.Sc. in Computer Science &amp; Information</strong>
+                  <span data-i18n="bio_h1_sub">Medical Informatics Major • Zagazig National University</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-award"></i>
+                <div>
+                  <strong data-i18n="bio_h2_title">DEPI Junior Data Analyst Trainee</strong>
+                  <span data-i18n="bio_h2_sub">Ministry of Communications and Information Technology initiative</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-brain"></i>
+                <div>
+                  <strong data-i18n="bio_h3_title">BUE Artificial Intelligence Program</strong>
+                  <span data-i18n="bio_h3_sub">British University in Egypt • Spring 2025</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-pillars">
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon"><i class="fa-solid fa-notes-medical"></i></div>
+              <div class="pillar-info">
+                <h4 data-i18n="pillar1_title">Medical Informatics Discipline</h4>
+                <p data-i18n="pillar1_desc">Equipped with specialized understanding of healthcare data workflows, medical records informatics, and statistical significance in clinical and administrative environments.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon"><i class="fa-solid fa-filter-circle-dollar"></i></div>
+              <div class="pillar-info">
+                <h4 data-i18n="pillar2_title">Data Cleaning &amp; Preprocessing</h4>
+                <p data-i18n="pillar2_desc">Rigorous data cleansing pipelines using Power Query, handling missing values, standardizing categorical features, and establishing robust star-schema relational models.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon"><i class="fa-solid fa-chart-column"></i></div>
+              <div class="pillar-info">
+                <h4 data-i18n="pillar3_title">Interactive Dashboard Architecture</h4>
+                <p data-i18n="pillar3_desc">Designing synchronized multi-page reports with drill-through parameters, decomposition trees, custom navigation menus, and executive-level KPI cards.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="skills_tag">Competencies</span>
+          <h2 class="section-title" data-i18n="skills_title">Technical Expertise &amp; Analytical Toolset</h2>
+          <p class="section-desc" data-i18n="skills_desc">Strictly verified skills derived from coursework, hands-on dashboard builds, and professional certifications.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Advanced Excel -->
+          <div class="skill-category glass-panel">
+            <div class="cat-header">
+              <div class="cat-icon bg-emerald"><i class="fa-regular fa-file-excel"></i></div>
+              <div>
+                <h3 class="cat-title" data-i18n="cat1_title">Advanced Microsoft Excel</h3>
+                <span class="cat-subtitle" data-i18n="cat1_sub">Modeling &amp; Reporting Engine</span>
+              </div>
+            </div>
+            <ul class="skill-tags">
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_ex1">Complex Formulas &amp; Nested Logic</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_ex2">Power Query Data Cleaning</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_ex3">Data Modeling &amp; Relationships</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_ex4">Pivot Tables &amp; Pivot Charts</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_ex5">Dynamic Dashboards &amp; Slicers</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_ex6">Conditional Formatting &amp; KPI Alerts</span></li>
+            </ul>
+          </div>
+
+          <!-- Power BI & Data Visualization -->
+          <div class="skill-category glass-panel">
+            <div class="cat-header">
+              <div class="cat-icon bg-amber"><i class="fa-solid fa-chart-simple"></i></div>
+              <div>
+                <h3 class="cat-title" data-i18n="cat2_title">Power BI &amp; Visualization</h3>
+                <span class="cat-subtitle" data-i18n="cat2_sub">Interactive Business Intelligence</span>
+              </div>
+            </div>
+            <ul class="skill-tags">
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_bi1">Multi-Page Executive Reports</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_bi2">Synchronized Slicers &amp; Filters</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_bi3">Decomposition Tree Analysis</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_bi4">Custom Page Navigation Buttons</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_bi5">Treemaps, Donut &amp; Geospatial Maps</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_bi6">Metric Cards &amp; Target Gauges</span></li>
+            </ul>
+          </div>
+
+          <!-- Programming & Database Management -->
+          <div class="skill-category glass-panel">
+            <div class="cat-header">
+              <div class="cat-icon bg-cyan"><i class="fa-solid fa-database"></i></div>
+              <div>
+                <h3 class="cat-title" data-i18n="cat3_title">Databases &amp; Programming</h3>
+                <span class="cat-subtitle" data-i18n="cat3_sub">Data Extraction &amp; Processing</span>
+              </div>
+            </div>
+            <ul class="skill-tags">
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_db1">Oracle SQL &amp; Relational Databases</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_db2">MySQL Querying &amp; Joins</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_db3">Python for Data Science &amp; ML</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_db4">R Programming for Statistics</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_db5">C++ Core Programming</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_db6">Data Warehousing &amp; Schema Design</span></li>
+            </ul>
+          </div>
+
+          <!-- Data Analysis & Statistics -->
+          <div class="skill-category glass-panel">
+            <div class="cat-header">
+              <div class="cat-icon bg-purple"><i class="fa-solid fa-calculator"></i></div>
+              <div>
+                <h3 class="cat-title" data-i18n="cat4_title">Analysis, Modeling &amp; Statistics</h3>
+                <span class="cat-subtitle" data-i18n="cat4_sub">Insight Discovery &amp; Validation</span>
+              </div>
+            </div>
+            <ul class="skill-tags">
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_st1">Exploratory Data Analysis (EDA)</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_st2">Statistical Summarization &amp; Variance</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_st3">Correlation &amp; Attrition Modeling</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_st4">Workforce &amp; Sales Forecasting</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_st5">Data Hygiene &amp; Outlier Detection</span></li>
+              <li><i class="fa-solid fa-check"></i> <span data-i18n="skill_st6">Executive Stakeholder Reporting</span></li>
+            </ul>
+          </div>
+
+          <!-- Soft Skills & Professional Attributes -->
+          <div class="skill-category glass-panel full-width-cat">
+            <div class="cat-header">
+              <div class="cat-icon bg-blue"><i class="fa-solid fa-lightbulb"></i></div>
+              <div>
+                <h3 class="cat-title" data-i18n="cat5_title">Core Soft Skills &amp; Communication</h3>
+                <span class="cat-subtitle" data-i18n="cat5_sub">Collaborative &amp; Problem-Solving Foundation</span>
+              </div>
+            </div>
+            <div class="soft-skills-flex">
+              <span class="badge-soft"><i class="fa-solid fa-magnifying-glass"></i> <span data-i18n="soft1">Analytical Thinking</span></span>
+              <span class="badge-soft"><i class="fa-solid fa-eye"></i> <span data-i18n="soft2">Attention to Detail</span></span>
+              <span class="badge-soft"><i class="fa-regular fa-clock"></i> <span data-i18n="soft3">Time Management</span></span>
+              <span class="badge-soft"><i class="fa-regular fa-comments"></i> <span data-i18n="soft4">Technical Communication</span></span>
+              <span class="badge-soft"><i class="fa-solid fa-puzzle-piece"></i> <span data-i18n="soft5">Problem Solving</span></span>
+              <span class="badge-soft"><i class="fa-solid fa-users"></i> <span data-i18n="soft6">Teamwork &amp; Collaboration</span></span>
+              <span class="badge-soft"><i class="fa-solid fa-language"></i> <span data-i18n="soft7">Arabic (Native) &amp; English (Intermediate)</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="proj_tag">Portfolio Showcase</span>
+          <h2 class="section-title" data-i18n="proj_title">Featured Business Intelligence &amp; Analytics Projects</h2>
+          <p class="section-desc" data-i18n="proj_desc">Every metric, screenshot, and insight displayed below is built directly from actual project datasets and verified deliverables.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="project-filters" role="tablist" aria-label="Project Categories">
+          <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true" data-i18n="filter_all">All Projects</button>
+          <button type="button" class="filter-btn" data-filter="power-bi" role="tab" aria-selected="false">Power BI</button>
+          <button type="button" class="filter-btn" data-filter="excel" role="tab" aria-selected="false" data-i18n="filter_excel">Excel Dashboards</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          
+          <!-- Project 1: Kickstarter Power BI -->
+          <article class="project-card glass-panel" data-category="power-bi">
+            <div class="project-image-box">
+              <img src="assets/projects/kickstarter-overview.png" alt="Kickstarter Sales &amp; Performance Power BI Report" loading="lazy" class="project-img">
+              <div class="project-tag-overlay">
+                <span class="tag-badge bg-amber"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                <span class="tag-badge bg-emerald"><i class="fa-solid fa-layer-group"></i> <span data-i18n="badge_multipage">Multi-Page</span></span>
+              </div>
+              <div class="project-hover-overlay">
+                <button type="button" class="btn btn-sm btn-primary open-modal-btn" data-project="kickstarter">
+                  <i class="fa-solid fa-expand"></i> <span data-i18n="btn_inspect_report">Inspect Report</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="meta-item"><i class="fa-regular fa-folder"></i> <span data-i18n="meta_crowdfund">Crowdfunding Analysis</span></span>
+                <span class="meta-item"><i class="fa-solid fa-database"></i> 375K Projects</span>
+              </div>
+
+              <h3 class="project-title" data-i18n="p1_title">Kickstarter Sales &amp; Performance Report</h3>
+              
+              <p class="project-summary" data-i18n="p1_summary">
+                A comprehensive multi-page Power BI analytical suite featuring synchronized slicers, custom navigation, and decomposition tree analysis across 375K crowdfunding campaigns ($17B total goal).
+              </p>
+
+              <div class="project-kpis">
+                <div class="kpi-mini">
+                  <span class="kpi-val">$3.0 Billion</span>
+                  <span class="kpi-lbl" data-i18n="kpi_pledged">Total Pledged</span>
+                </div>
+                <div class="kpi-mini">
+                  <span class="kpi-val">40 Million</span>
+                  <span class="kpi-lbl" data-i18n="kpi_backers">Total Backers</span>
+                </div>
+                <div class="kpi-mini">
+                  <span class="kpi-val">35.71%</span>
+                  <span class="kpi-lbl" data-i18n="kpi_success_rate">Success Rate</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <div class="tech-stack-pills">
+                  <span>Power BI</span>
+                  <span>DAX</span>
+                  <span>Data Modeling</span>
+                  <span>Decomposition Tree</span>
+                </div>
+                <button type="button" class="btn-link open-modal-btn" data-project="kickstarter">
+                  <span data-i18n="btn_details_views">Details &amp; Views</span> <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Super Store Power BI Dashboard -->
+          <article class="project-card glass-panel" data-category="power-bi">
+            <div class="project-image-box">
+              <img src="assets/projects/superstore-overview.png" alt="Superstore Interactive Power BI Dashboard" loading="lazy" class="project-img">
+              <div class="project-tag-overlay">
+                <span class="tag-badge bg-amber"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                <span class="tag-badge bg-cyan"><i class="fa-solid fa-clock-rotate-left"></i> <span data-i18n="badge_time_saved">83% Time Saved</span></span>
+              </div>
+              <div class="project-hover-overlay">
+                <button type="button" class="btn btn-sm btn-primary open-modal-btn" data-project="superstore">
+                  <i class="fa-solid fa-expand"></i> <span data-i18n="btn_inspect_dashboard">Inspect Dashboard</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="meta-item"><i class="fa-regular fa-folder"></i> <span data-i18n="meta_retail">Retail &amp; Operations</span></span>
+                <span class="meta-item"><i class="fa-solid fa-cubes"></i> <span data-i18n="meta_3tabs">3 Tab Views</span></span>
+              </div>
+
+              <h3 class="project-title" data-i18n="p2_title">Super Store Interactive Dashboard</h3>
+              
+              <p class="project-summary" data-i18n="p2_summary">
+                End-to-end retail commercial performance dashboard engineered with Power Query and data modeling. Reduced regular reporting turnaround time from 30 minutes to 5 minutes through automated ETL.
+              </p>
+
+              <div class="project-kpis">
+                <div class="kpi-mini">
+                  <span class="kpi-val">$2.30M</span>
+                  <span class="kpi-lbl" data-i18n="kpi_sales">Total Sales</span>
+                </div>
+                <div class="kpi-mini">
+                  <span class="kpi-val">$286.4K</span>
+                  <span class="kpi-lbl" data-i18n="kpi_profit">Total Profit</span>
+                </div>
+                <div class="kpi-mini">
+                  <span class="kpi-val">12.47%</span>
+                  <span class="kpi-lbl" data-i18n="kpi_margin">Profit Margin</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <div class="tech-stack-pills">
+                  <span>Power BI</span>
+                  <span>Power Query</span>
+                  <span>Data Modeling</span>
+                  <span>Interactive Slicers</span>
+                </div>
+                <button type="button" class="btn-link open-modal-btn" data-project="superstore">
+                  <span data-i18n="btn_details_views">Details &amp; Views</span> <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Amazon HR Department Analytics -->
+          <article class="project-card glass-panel" data-category="excel">
+            <div class="project-image-box">
+              <img src="assets/projects/amazon-hr-department.png" alt="Amazon HR Department Workforce &amp; Attrition Dashboard" loading="lazy" class="project-img">
+              <div class="project-tag-overlay">
+                <span class="tag-badge bg-emerald"><i class="fa-regular fa-file-excel"></i> <span data-i18n="badge_excel_dash">Excel Dashboard</span></span>
+                <span class="tag-badge bg-amber"><i class="fa-solid fa-users"></i> 11,991 Staff</span>
+              </div>
+              <div class="project-hover-overlay">
+                <button type="button" class="btn btn-sm btn-primary open-modal-btn" data-project="amazon-hr">
+                  <i class="fa-solid fa-expand"></i> <span data-i18n="btn_inspect_dashboard">Inspect Dashboard</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="meta-item"><i class="fa-regular fa-folder"></i> <span data-i18n="meta_hr">Human Resources Analytics</span></span>
+                <span class="meta-item"><i class="fa-solid fa-user-group"></i> <span data-i18n="meta_10depts">10 Departments</span></span>
+              </div>
+
+              <h3 class="project-title" data-i18n="p3_title">Amazon HR Department Workforce Analytics</h3>
+              
+              <p class="project-summary" data-i18n="p3_summary">
+                Multi-view workforce evaluation dashboard analyzing employee satisfaction rates (63%), monthly working hours (200.47 avg), promotion velocity vs project workload, salary distribution, and attrition risk.
+              </p>
+
+              <div class="project-kpis">
+                <div class="kpi-mini">
+                  <span class="kpi-val">11,991</span>
+                  <span class="kpi-lbl" data-i18n="kpi_employees">Total Employees</span>
+                </div>
+                <div class="kpi-mini">
+                  <span class="kpi-val">63%</span>
+                  <span class="kpi-lbl" data-i18n="kpi_satisfaction">Satisfaction Rate</span>
+                </div>
+                <div class="kpi-mini">
+                  <span class="kpi-val">200.47h</span>
+                  <span class="kpi-lbl" data-i18n="kpi_hours">Avg Monthly Hours</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <div class="tech-stack-pills">
+                  <span>Excel Formulas</span>
+                  <span>Attrition Modeling</span>
+                  <span>Department Slicers</span>
+                  <span>Pivot Charts</span>
+                </div>
+                <button type="button" class="btn-link open-modal-btn" data-project="amazon-hr">
+                  <span data-i18n="btn_details_views">Details &amp; Views</span> <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Sales Analytics Dashboard -->
+          <article class="project-card glass-panel" data-category="excel">
+            <div class="project-image-box">
+              <img src="assets/projects/sales-analytics-dashboard.png" alt="Sales Analytics Quick Summary Dashboard" loading="lazy" class="project-img">
+              <div class="project-tag-overlay">
+                <span class="tag-badge bg-emerald"><i class="fa-regular fa-file-excel"></i> <span data-i18n="badge_excel_analytics">Excel Analytics</span></span>
+                <span class="tag-badge bg-blue"><i class="fa-solid fa-coins"></i> $438K Sales</span>
+              </div>
+              <div class="project-hover-overlay">
+                <button type="button" class="btn btn-sm btn-primary open-modal-btn" data-project="sales-analytics">
+                  <i class="fa-solid fa-expand"></i> <span data-i18n="btn_inspect_dashboard">Inspect Dashboard</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="meta-item"><i class="fa-regular fa-folder"></i> <span data-i18n="meta_commercial">Commercial Sales</span></span>
+                <span class="meta-item"><i class="fa-solid fa-arrow-trend-up"></i> <span data-i18n="meta_benchmarks">Rep Benchmarks</span></span>
+              </div>
+
+              <h3 class="project-title" data-i18n="p4_title">Sales Analytics &amp; Performance Dashboard</h3>
+              
+              <p class="project-summary" data-i18n="p4_summary">
+                Executive sales dashboard delivering quick summaries: monthly revenue trends ($67K peak in Dec), deal count distribution by deal size, payment type share, top 5 customer revenue, and regional performance.
+              </p>
+
+              <div class="project-kpis">
+                <div class="kpi-mini">
+                  <span class="kpi-val">$438,636</span>
+                  <span class="kpi-lbl" data-i18n="kpi_sales">Total Sales</span>
+                </div>
+                <div class="kpi-mini">
+                  <span class="kpi-val">195</span>
+                  <span class="kpi-lbl" data-i18n="kpi_orders">Total Orders</span>
+                </div>
+                <div class="kpi-mini">
+                  <span class="kpi-val">$144,060</span>
+                  <span class="kpi-lbl" data-i18n="kpi_top_region">Top Region (North)</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <div class="tech-stack-pills">
+                  <span>Excel Analysis</span>
+                  <span>Donut / Bar Charts</span>
+                  <span>Deal Size Slicing</span>
+                  <span>KPI Summaries</span>
+                </div>
+                <button type="button" class="btn-link open-modal-btn" data-project="sales-analytics">
+                  <span data-i18n="btn_details_views">Details &amp; Views</span> <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Details Modal / Drawer -->
+    <div class="modal-wrapper" id="projectModal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-dialog glass-panel">
+        <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close project modal">&times;</button>
+        <div class="modal-content-inner" id="modalContent"></div>
+      </div>
+    </div>
+
+    <!-- Certificate Details Modal -->
+    <div class="modal-wrapper" id="certModal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-dialog glass-panel cert-modal-dialog">
+        <button type="button" class="modal-close-btn" id="certModalCloseBtn" aria-label="Close certificate modal">&times;</button>
+        <div class="modal-content-inner" id="certModalContent"></div>
+      </div>
+    </div>
+
+    <!-- Image Lightbox Modal for Fullscreen Zoom -->
+    <div class="lightbox-wrapper" id="imageLightbox" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="lightbox-content">
+        <button type="button" class="lightbox-close-btn" id="lightboxCloseBtn" aria-label="Close image lightbox">&times;</button>
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" alt="Fullscreen Preview" id="lightboxImg" class="lightbox-img">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+      </div>
+    </div>
+
+    <!-- Certifications Section -->
+    <section class="section cert-section" id="certificates">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="cert_tag">Professional Credentials</span>
+          <h2 class="section-title" data-i18n="cert_title">Courses &amp; Certifications</h2>
+          <p class="section-desc" data-i18n="cert_desc">Formal training programs and certifications officially listed in Haneen's credentials. Click any card to inspect details.</p>
+        </div>
+
+        <div class="certs-grid">
+          
+          <!-- Certificate 1: DEPI -->
+          <div class="cert-card glass-panel open-cert-btn" data-cert="depi" role="button" tabindex="0" title="Click to view details">
+            <div class="cert-badge-img">
+              <img src="assets/certificates/depi-cert.svg" alt="DEPI Junior Data Analyst Track Badge" loading="lazy">
+            </div>
+            <div class="cert-details">
+              <span class="cert-org text-cyan" data-i18n="cert1_org">Digital Egypt Pioneers Initiative (DEPI)</span>
+              <h3 class="cert-name" data-i18n="cert1_name">Junior Data Analyst Track</h3>
+              <p class="cert-description" data-i18n="cert1_desc">
+                Comprehensive professional workforce training program administered under the Ministry of Communications and Information Technology, covering data cleaning, business intelligence reporting, Power BI, SQL, and analytical decision support.
+              </p>
+              <div class="cert-meta-info">
+                <span class="badge-status verified"><i class="fa-solid fa-circle-check"></i> <span data-i18n="cert1_status">Ongoing Training (Jul 2026 – Present)</span></span>
+                <span class="view-cert-hint"><i class="fa-solid fa-expand"></i> <span data-i18n="btn_inspect">Inspect</span></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 2: SQL Bootcamp -->
+          <div class="cert-card glass-panel open-cert-btn" data-cert="sql" role="button" tabindex="0" title="Click to view details">
+            <div class="cert-badge-img">
+              <img src="assets/certificates/sql-cert.svg" alt="The Complete SQL Bootcamp Badge" loading="lazy">
+            </div>
+            <div class="cert-details">
+              <span class="cert-org text-purple">Udemy</span>
+              <h3 class="cert-name" data-i18n="cert3_name">The Complete SQL Bootcamp (MySQL / Oracle)</h3>
+              <p class="cert-description" data-i18n="cert3_desc">
+                In-depth relational database architecture, query optimization, complex multi-table joins, subqueries, aggregation functions, window functions, and database administration with MySQL and Oracle Database environments.
+              </p>
+              <div class="cert-meta-info">
+                <span class="badge-status verified"><i class="fa-solid fa-circle-check"></i> <span data-i18n="cert3_status">Course Completion</span></span>
+                <span class="view-cert-hint"><i class="fa-solid fa-expand"></i> <span data-i18n="btn_inspect">Inspect</span></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 4: Python for Data Science -->
+          <div class="cert-card glass-panel open-cert-btn" data-cert="python" role="button" tabindex="0" title="Click to view details">
+            <div class="cert-badge-img">
+              <img src="assets/certificates/python-cert.svg" alt="Python for Data Science and Machine Learning Badge" loading="lazy">
+            </div>
+            <div class="cert-details">
+              <span class="cert-org text-amber">Udemy</span>
+              <h3 class="cert-name" data-i18n="cert4_name">Python for Data Science and Machine Learning</h3>
+              <p class="cert-description" data-i18n="cert4_desc">
+                Exploratory data analysis, statistical operations, preprocessing pipelines, feature engineering, and supervised/unsupervised machine learning workflows using Python data science libraries.
+              </p>
+              <div class="cert-meta-info">
+                <span class="badge-status verified"><i class="fa-solid fa-circle-check"></i> <span data-i18n="cert4_status">Course Completion</span></span>
+                <span class="view-cert-hint"><i class="fa-solid fa-expand"></i> <span data-i18n="btn_inspect">Inspect</span></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 5: BUE AI Program -->
+          <div class="cert-card glass-panel open-cert-btn" data-cert="bue" role="button" tabindex="0" title="Click to view details">
+            <div class="cert-badge-img">
+              <img src="assets/certificates/bue-cert.svg" alt="British University in Egypt Artificial Intelligence Training Program Badge" loading="lazy">
+            </div>
+            <div class="cert-details">
+              <span class="cert-org text-red" data-i18n="cert5_org">British University in Egypt (BUE)</span>
+              <h3 class="cert-name" data-i18n="cert5_name">Artificial Intelligence Training Program</h3>
+              <p class="cert-description" data-i18n="cert5_desc">
+                Specialized intensive academic training in modern artificial intelligence algorithms, neural computing paradigms, predictive models, and ethical AI deployment scenarios.
+              </p>
+              <div class="cert-meta-info">
+                <span class="badge-status verified"><i class="fa-solid fa-circle-check"></i> <span data-i18n="cert5_status">Completed (Spring 2025)</span></span>
+                <span class="view-cert-hint"><i class="fa-solid fa-expand"></i> <span data-i18n="btn_inspect">Inspect</span></span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Training Timeline Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="time_tag">Academic &amp; Training Track</span>
+          <h2 class="section-title" data-i18n="time_title">Education &amp; Professional Experience</h2>
+          <p class="section-desc" data-i18n="time_desc">Transparent record of academic degree progress and formal training programs.</p>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+
+          <!-- Item 1: University -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-card glass-panel">
+              <div class="timeline-meta">
+                <span class="timeline-period"><i class="fa-regular fa-calendar"></i> <span data-i18n="t1_period">2024 – Present</span></span>
+                <span class="timeline-grade"><i class="fa-solid fa-star"></i> <span data-i18n="t1_grade">Grade: Very Good</span></span>
+              </div>
+              <h3 class="timeline-title" data-i18n="t1_title">Bachelor of Computer Science and Information</h3>
+              <h4 class="timeline-org" data-i18n="t1_org">Medical Informatics Major • Zagazig National University</h4>
+              <p class="timeline-desc" data-i18n="t1_desc">
+                Specializing in medical informatics—the convergence of computer science, data architecture, and health sciences. Studying data structures, database management systems, algorithmic problem solving, statistical methods, and clinical information systems.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2: DEPI -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div class="timeline-card glass-panel">
+              <div class="timeline-meta">
+                <span class="timeline-period"><i class="fa-regular fa-calendar"></i> <span data-i18n="t2_period">Jul 2026 – Present</span></span>
+                <span class="timeline-badge" data-i18n="t2_badge">Active Training</span>
+              </div>
+              <h3 class="timeline-title" data-i18n="t2_title">Junior Data Analyst Trainee</h3>
+              <h4 class="timeline-org" data-i18n="t2_org">Digital Egypt Pioneers Initiative (DEPI)</h4>
+              <p class="timeline-desc" data-i18n="t2_desc">
+                Engaged in intensive applied training on modern data analysis methodologies, database querying with SQL, data transformation with Power Query, enterprise dashboard development with Power BI, and collaborative technical delivery.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3: BUE AI -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <div class="timeline-card glass-panel">
+              <div class="timeline-meta">
+                <span class="timeline-period"><i class="fa-regular fa-calendar"></i> <span data-i18n="t3_period">Spring 2025</span></span>
+                <span class="timeline-badge" data-i18n="t3_badge">Academic Training</span>
+              </div>
+              <h3 class="timeline-title" data-i18n="t3_title">Artificial Intelligence Training Program</h3>
+              <h4 class="timeline-org" data-i18n="t3_org">British University in Egypt (BUE)</h4>
+              <p class="timeline-desc" data-i18n="t3_desc">
+                Completed rigorous theoretical and practical workshops on core AI concepts, intelligent systems, learning algorithms, and real-world analytical application scenarios.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / What I Bring Section -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="srv_tag">Value Proposition</span>
+          <h2 class="section-title" data-i18n="srv_title">What I Bring to Your Analytics Team</h2>
+          <p class="section-desc" data-i18n="srv_desc">Practical data analytical capabilities ready to support business and healthcare workflows.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-box glass-panel">
+            <div class="service-icon"><i class="fa-solid fa-chart-pie"></i></div>
+            <h3 data-i18n="srv1_title">Interactive Power BI Dashboards</h3>
+            <p data-i18n="srv1_desc">Designing structured, multi-page business intelligence reports with customized slicers, drill-through cards, and decomposition trees for executive clarity.</p>
+          </div>
+
+          <div class="service-box glass-panel">
+            <div class="service-icon"><i class="fa-solid fa-table-cells"></i></div>
+            <h3 data-i18n="srv2_title">Advanced Excel Automation &amp; Modeling</h3>
+            <p data-i18n="srv2_desc">Building automated data models with Power Query, complex formula frameworks, and dynamic pivot tables that cut repetitive manual reporting hours down to minutes.</p>
+          </div>
+
+          <div class="service-box glass-panel">
+            <div class="service-icon"><i class="fa-solid fa-broom"></i></div>
+            <h3 data-i18n="srv3_title">Data Cleaning &amp; Preprocessing</h3>
+            <p data-i18n="srv3_desc">Cleaning messy datasets, rectifying nulls and formatting discrepancies, establishing relational keys, and structuring raw inputs into analysis-ready schemas.</p>
+          </div>
+
+          <div class="service-box glass-panel">
+            <div class="service-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            <h3 data-i18n="srv4_title">Healthcare &amp; Informatics Literacy</h3>
+            <p data-i18n="srv4_desc">Leveraging Medical Informatics domain knowledge to analyze clinical and healthcare datasets with meticulous respect for data governance and accuracy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="contact_tag">Let's Connect</span>
+          <h2 class="section-title" data-i18n="contact_title">Get in Touch</h2>
+          <p class="section-desc" data-i18n="contact_desc">Available for data analyst internships, entry-level roles, and analytical collaborations.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-info-column">
+            <div class="contact-card glass-panel">
+              <div class="c-icon bg-cyan"><i class="fa-regular fa-envelope"></i></div>
+              <div class="c-details">
+                <span class="c-label" data-i18n="c_email_label">Email Address</span>
+                <a href="mailto:haneentarek7006@gmail.com" class="c-value">haneentarek7006@gmail.com</a>
+                <button type="button" class="copy-btn" data-clipboard="haneentarek7006@gmail.com" title="Copy email">
+                  <i class="fa-regular fa-copy"></i> <span data-i18n="btn_copy">Copy</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="contact-card glass-panel">
+              <div class="c-icon bg-emerald"><i class="fa-solid fa-phone"></i></div>
+              <div class="c-details">
+                <span class="c-label" data-i18n="c_phone_label">Phone &amp; WhatsApp</span>
+                <a href="tel:01154125153" class="c-value">01154125153 / +20 1154125153</a>
+                <div class="phone-actions">
+                  <button type="button" class="copy-btn" data-clipboard="01154125153" title="Copy phone">
+                    <i class="fa-regular fa-copy"></i> <span data-i18n="btn_copy">Copy</span>
+                  </button>
+                  <a href="https://wa.me/201154125153" target="_blank" rel="noopener noreferrer" class="btn-wa">
+                    <i class="fa-brands fa-whatsapp"></i> <span data-i18n="btn_chat">Chat</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-card glass-panel">
+              <div class="c-icon bg-blue"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="c-details">
+                <span class="c-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/haneen-tarek-658310350" target="_blank" rel="noopener noreferrer" class="c-value">
+                  linkedin.com/in/haneen-tarek-658310350
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-card glass-panel">
+              <div class="c-icon bg-purple"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="c-details">
+                <span class="c-label" data-i18n="c_loc_label">Location</span>
+                <span class="c-value" data-i18n="c_loc_val">Zagazig, Al Sharkia, Egypt</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-column glass-panel">
+            <h3 class="form-title" data-i18n="form_title">Send a Direct Message</h3>
+            <p class="form-subtitle" data-i18n="form_subtitle">Fill in the form below to reach out directly via your preferred email client or WhatsApp.</p>
+            
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="senderName"><span data-i18n="f_name">Your Name</span> <span class="required">*</span></label>
+                <input type="text" id="senderName" name="name" required placeholder="e.g. Sarah Jenkins" class="form-input" data-i18n-ph="f_name_ph">
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail"><span data-i18n="f_email">Your Email</span> <span class="required">*</span></label>
+                <input type="email" id="senderEmail" name="email" required placeholder="name@company.com" class="form-input" data-i18n-ph="f_email_ph">
+              </div>
+
+              <div class="form-group">
+                <label for="msgSubject"><span data-i18n="f_subject">Subject</span> <span class="required">*</span></label>
+                <input type="text" id="msgSubject" name="subject" required placeholder="Data Analyst Internship / Inquiry" class="form-input" data-i18n-ph="f_subject_ph">
+              </div>
+
+              <div class="form-group">
+                <label for="msgBody"><span data-i18n="f_msg">Message</span> <span class="required">*</span></label>
+                <textarea id="msgBody" name="message" rows="5" required placeholder="Describe your team's opening or project requirements..." class="form-textarea" data-i18n-ph="f_msg_ph"></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary" id="sendEmailBtn">
+                  <i class="fa-regular fa-paper-plane"></i> <span data-i18n="f_btn_email">Send via Email</span>
+                </button>
+                <button type="button" class="btn btn-outline" id="sendWhatsAppBtn">
+                  <i class="fa-brands fa-whatsapp"></i> <span data-i18n="f_btn_wa">Send via WhatsApp</span>
+                </button>
+              </div>
+
+              <div class="form-status" id="formStatus" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <span class="logo-mark">HT</span>
+            <div class="logo-text">
+              <span class="brand-name" data-i18n="brand_name">Haneen Tarek Attia</span>
+              <span class="brand-role" data-i18n="footer_role">Computer Science &amp; Medical Informatics Major | Aspiring Data Analyst</span>
+            </div>
+          </div>
+          <p class="footer-tagline" data-i18n="footer_tagline">
+            Committed to analytical rigor, healthcare informatics, and high-impact business intelligence.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="f-col-title" data-i18n="footer_nav_title">Navigation</h4>
+          <ul>
+            <li><a href="#hero" data-i18n="nav_home">Home</a></li>
+            <li><a href="#about" data-i18n="nav_about">About</a></li>
+            <li><a href="#skills" data-i18n="nav_skills">Skills</a></li>
+            <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+            <li><a href="#certificates" data-i18n="nav_certs">Certifications</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4 class="f-col-title" data-i18n="footer_channels_title">Verified Channels</h4>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/haneen-tarek-658310350" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a></li>
+            <li><a href="mailto:haneentarek7006@gmail.com"><i class="fa-regular fa-envelope"></i> Email Haneen</a></li>
+            <li><a href="https://wa.me/201154125153" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></li>
+            <li><a href="assets/cv/Haneen_Tarek_CV.pdf" download="Haneen_Tarek_CV.pdf"><i class="fa-solid fa-file-pdf"></i> <span data-i18n="footer_dl_cv">Download Resume (PDF)</span></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="currentYear">2026</span> <span data-i18n="brand_name">Haneen Tarek Attia</span>. <span data-i18n="footer_copy">All verified data sourced from official CV &amp; project assets.</span>
+        </p>
+        <p class="dev-tag" data-i18n="footer_tag">
+          Designed with semantic HTML5, pure CSS3, and Vanilla JavaScript. Zero unauthorized frameworks.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Scroll to Top Button -->
+  <button type="button" class="back-to-top-btn" id="backToTopBtn" aria-label="Scroll back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Project Modal Data Registry & Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>

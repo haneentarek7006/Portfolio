@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="sql-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="cyan-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#sql-bg)" stroke="url(#cyan-grad)" stroke-width="4"/>
+  <g fill="none" stroke="url(#cyan-grad)" stroke-width="3" transform="translate(50, 40)">
+    <ellipse cx="50" cy="20" rx="35" ry="12" fill="#1e293b"/>
+    <path d="M15 20 v20 c0 6.6 15.7 12 35 12 s35 -5.4 35 -12 v-20" fill="#1e293b"/>
+    <path d="M15 40 v20 c0 6.6 15.7 12 35 12 s35 -5.4 35 -12 v-20" fill="#1e293b"/>
+  </g>
+  <text x="100" y="145" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">SQL BOOTCAMP</text>
+  <text x="100" y="162" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="#38bdf8" text-anchor="middle">MySQL &amp; Oracle Database</text>
+  <text x="100" y="176" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8" text-anchor="middle">Udemy Certified</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="py-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+    <linearGradient id="py-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3776AB"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <linearGradient id="py-yellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD43B"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#py-bg)" stroke="url(#py-yellow)" stroke-width="4"/>
+  <g transform="translate(65, 42) scale(1.1)">
+    <path d="M31 2 C22 2 17 6 17 14 L17 21 L32 21 L32 23 L11 23 C4 23 0 28 0 37 C0 47 4 52 11 52 L16 52 L16 45 C16 38 21 34 29 34 L43 34 C50 34 55 30 55 23 L55 14 C55 6 49 2 31 2 Z M23 7 C25 7 27 9 27 11 C27 13 25 15 23 15 C21 15 19 13 19 11 C19 9 21 7 23 7 Z" fill="url(#py-blue)"/>
+    <path d="M33 62 C42 62 47 58 47 50 L47 43 L32 43 L32 41 L53 41 C60 41 64 36 64 27 C64 17 60 12 53 12 L48 12 L48 19 C48 26 43 30 35 30 L21 30 C14 30 9 34 9 41 L9 50 C9 58 15 62 33 62 Z M41 57 C39 57 37 55 37 53 C37 51 39 49 41 49 C43 49 45 51 45 53 C45 55 43 57 41 57 Z" fill="url(#py-yellow)"/>
+  </g>
+  <text x="100" y="146" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">PYTHON FOR DATA</text>
+  <text x="100" y="162" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="#FFD43B" text-anchor="middle">Science &amp; Machine Learning</text>
+  <text x="100" y="176" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8" text-anchor="middle">Udemy Certified</text>
+</svg>
